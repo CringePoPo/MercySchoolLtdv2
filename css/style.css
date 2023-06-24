@@ -111,10 +111,22 @@ img {
   color: white;
   width: 400px;
 }
+@media (max-width: 430px) {
+  .info-text h2 {
+    font-size: 18px;
+    width: 250px;
+  }
+}
 .info-text a {
   position: absolute;
   left: 30%;
   margin-top: 10px;
+}
+@media (max-width: 430px) {
+  .info-text {
+    top: 50%;
+    left: 20%;
+  }
 }
 
 .navigation-button {
