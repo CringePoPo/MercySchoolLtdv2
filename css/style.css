@@ -58,6 +58,14 @@ a:active {
   color: white;
 }
 
+.mx-5 {
+  margin-top: 15px;
+}
+
+.icon-pin_drop::before {
+  font-size: 25px;
+}
+
 img {
   -o-object-fit: cover;
      object-fit: cover;
