@@ -44,3 +44,36 @@ function onElementHeightChange(elm, callback) {
         elm.onElementHeightChangeTimer = setTimeout(run, 200);
     })();
   }
+
+
+  // Slider for index
+  var currentImg = 0;
+  var imgs = document.querySelectorAll('.slider .wrap img');
+  let dots = document.querySelectorAll('.dot');
+  var interval = 5000;
+
+  var secondImageUrl = `img/g12.webp`;
+  var thirdImageUrl = `img/g13.webp`;
+
+  document.getElementById('img-2').src = secondImageUrl;
+  document.getElementById('img-3').src = thirdImageUrl;
+
+  var timer = setInterval(changeSlide, interval);
+
+  function changeSlide(n) {
+    for (var i = 0; i < imgs.length; i++) {
+      imgs[i].style.opacity = 0;
+      dots[i].className = dots[i].className.replace(' active', '');
+    }
+
+    currentImg = (currentImg + 1) % imgs.length;
+
+    if (n != undefined) {
+      clearInterval(timer);
+      timer = setInterval(changeSlide, interval);
+      currentImg = n;
+    }
+
+    imgs[currentImg].style.opacity = 1;
+    dots[currentImg].className += ' active';
+  }

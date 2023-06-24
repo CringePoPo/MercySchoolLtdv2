@@ -27,6 +27,7 @@ function showDarkbox(url) {
    let element = document.getElementById("darkbox");
    element.parentNode.removeChild(element);
    darkBoxVisible = false;
+   
 }
 }
 

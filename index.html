@@ -12,68 +12,82 @@
   <body>
     <header>
       <section id="banner" class="banner">
-        <div class="bg-color">
-          <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-              <div class="col-md-12 w-100">
-                <div class="navbar-header">
-                  <button
-                    type="button"
-                    class="navbar-toggle"
-                    data-toggle="collapse"
-                    data-target="#myNavbar"
-                  >
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand funsy" href="#"
-                    ><img
-                      src="img/mercy.webp"
-                      class="img-responsive"
-                      style="margin-top: -16px"
-                  /></a>
-                </div>
-                <div
-                  class="collapse navbar-collapse navbar-right"
-                  id="myNavbar"
-                >
-                  <ul class="nav navbar-nav">
-                    <li class="active"><a href="/">Home</a></li>
-                    <li class=""><a href="about.html">About</a></li>
-                    <!-- <li class=""><a href="alumni.html">Alumni</a></li> -->
-                    <li class=""><a href="gallery.html">Gallery</a></li>
-                    <li class=""><a href="curriculum.html">Curriculum</a></li>
-                    <li class=""><a href="schools.html">School</a></li>
-                    <li class=""><a href="contact.html">Contact</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
+        <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container">
-            <div class="row">
-              <div class="banner-info">
-                <div class="banner-logo text-center">
-                  <img src="img/mercy.webp" class="img-banner" />
-                </div>
-                <div class="banner-text text-center">
-                  <h1 class="white">
-                    Your Child's first step on their journey to excellence
-                  </h1>
-                  <!-- <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod <br />tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p> -->
-                  <a href="contact.html" class="btn btn-dark">Get in touch</a>
-                </div>
-                <div class="overlay-detail text-center">
-                  <a href="#service"><i class="fa fa-angle-down"></i></a>
-                </div>
+            <div class="col-md-12 w-100">
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle"
+                  data-toggle="collapse"
+                  data-target="#myNavbar"
+                >
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand funsy" href="#"
+                  ><img
+                    src="img/mercy.webp"
+                    class="img-responsive"
+                    style="margin-top: -16px"
+                /></a>
+              </div>
+              <div
+                class="collapse navbar-collapse navbar-right"
+                id="myNavbar"
+              >
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="/">Home</a></li>
+                  <li class=""><a href="about.html">About</a></li>
+                  <!-- <li class=""><a href="alumni.html">Alumni</a></li> -->
+                  <li class=""><a href="gallery.html">Gallery</a></li>
+                  <li class=""><a href="curriculum.html">Curriculum</a></li>
+                  <li class=""><a href="schools.html">School</a></li>
+                  <li class=""><a href="contact.html">Contact</a></li>
+                </ul>
               </div>
             </div>
           </div>
+        </nav>
+        <div class="slider">
+          <div class="info-text">
+            <h2>YOUR CHILD'S FIRST STEP ON THEIR JOURNEY TO EXCELLENCE</h2>
+
+            <a href="contact.html" class="btn btn-dark">Get in touch</a>
+          </div>
+          <div class="wrap">
+            <img
+              id="img-1"
+              src="img/banner1.webp"
+              alt="Image 1"
+            />
+          </div>
+          <div class="wrap">
+            <img
+              id="img-2"
+              src="img/g12.webp"
+              alt="Image 2"
+            />
+
+          </div>
+          <div class="wrap">
+
+            <img
+              id="img-3"
+              src="img/g13.webp"
+              alt="Image 3"
+            />
+          </div>
+        </div>
+        
+        <div class="container">
+          <div class="navigation-button">
+            <span class="dot active" onclick="changeSlide(0)"></span>
+            <span class="dot" onclick="changeSlide(1)"></span>
+            <span class="dot" onclick="changeSlide(2)"></span>
+          </div>
+      
         </div>
       </section>
     </header>
@@ -181,6 +195,7 @@
     </section>
 <!-- Info about school -->
 <section class="conten" style="margin-bottom: 40px; margin-top: 100px">
+  <div class="overlay"></div>
   <div id="scene" class="d-flex">
     <div data-depth="0.2" class="img-resize"></div>
     <div class="auto-text" data-depth="0.6">

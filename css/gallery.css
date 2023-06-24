@@ -14,9 +14,9 @@
   opacity: 0.5;
   font-size: 8rem;
   position: absolute;
-  color: var(--navyBlue);
+  color: blueviolet;
   top: -40px;
-  left: 280px;
+  left: 400px;
 }
 
 .family-wishing__title::before {
@@ -31,9 +31,17 @@
   transform: translateY(-50%);
 }
 
+.event {
+  margin-top: 50px;
+}
+.event h1::before {
+  top: 20px;
+  right: 53%;
+}
+
 .ga .family-wishing__title::before {
   top: 25px;
-  right: 519px;
+  right: 48%;
 }
 
 #gallery {
