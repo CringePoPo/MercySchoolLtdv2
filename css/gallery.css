@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .gal {
   position: relative;
 }
@@ -12,10 +11,6 @@
 }
 .gal > div .breadcrumbs span {
   color: white;
-=======
-:root {
-  --navyBlue: red;
->>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
 }
 
 .family-wishing__title {
@@ -24,27 +19,15 @@
   padding: 30px 0;
   position: relative;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
 .family-wishing__title::after {
   content: attr(data-gallery);
   opacity: 0.5;
   font-size: 8rem;
   position: absolute;
-<<<<<<< HEAD
   color: red;
   top: -40px;
   left: 280px;
 }
-=======
-  color: blueviolet;
-  top: -40px;
-  left: 400px;
-}
-
->>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
 .family-wishing__title::before {
   content: "";
   opacity: 0.5;
@@ -52,68 +35,35 @@
   border-radius: 50%;
   height: 30px;
   width: 30px;
-<<<<<<< HEAD
   background-color: red;
-=======
-  background-color: var(--navyBlue);
->>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
   position: absolute;
   transform: translateY(-50%);
 }
 
-<<<<<<< HEAD
 .ga .family-wishing__title::before {
   top: 25px;
   right: 519px;
-=======
-.event {
-  margin-top: 50px;
-}
-.event h1::before {
-  top: 20px;
-  right: 53%;
-}
-
-.ga .family-wishing__title::before {
-  top: 25px;
-  right: 48%;
->>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
 }
 
 #gallery {
   line-height: 0;
-<<<<<<< HEAD
   -webkit-column-count: 5;
   /* split it into 5 columns */
   -webkit-column-gap: 5px;
   /* give it a 5px gap between columns */
-=======
-  -webkit-column-count: 5; /* split it into 5 columns */
-  -webkit-column-gap: 5px; /* give it a 5px gap between columns */
->>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
   -moz-column-count: 5;
   -moz-column-gap: 5px;
   column-count: 5;
   column-gap: 5px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
 #gallery img {
   width: 100% !important;
   height: auto !important;
   filter: grayscale(100%);
   transition: filter ease-in-out 0.5s;
-<<<<<<< HEAD
   margin-bottom: 5px;
   /* to match column gap */
 }
-=======
-  margin-bottom: 5px; /* to match column gap */
-}
-
->>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
 #gallery img:hover {
   filter: none;
 }
