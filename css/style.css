@@ -58,8 +58,105 @@ a:active {
   color: white;
 }
 
+<<<<<<< HEAD
 .conten {
   overflow: hidden;
+=======
+.mx-5 {
+  margin-top: 15px;
+}
+
+.icon-pin_drop::before {
+  font-size: 25px;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.slider {
+  width: 100%;
+  height: 510px;
+  position: relative;
+  margin-bottom: 50px;
+}
+.slider .wrap {
+  position: relative;
+}
+.slider .wrap img {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 90px;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+}
+.slider .wrap img:first-child {
+  z-index: 1;
+}
+.slider .wrap img:nth-child(2) {
+  z-index: 0;
+}
+
+.info-text {
+  position: absolute;
+  top: 70%;
+  margin: 0 auto;
+  z-index: 200;
+  left: 35%;
+  background-color: rgba(0, 0, 0, 0.27);
+}
+.info-text h2 {
+  text-align: center;
+  line-height: 1.2;
+  color: white;
+  width: 400px;
+}
+@media (max-width: 430px) {
+  .info-text h2 {
+    font-size: 18px;
+    width: 250px;
+  }
+}
+.info-text a {
+  position: absolute;
+  left: 30%;
+  margin-top: 10px;
+}
+@media (max-width: 430px) {
+  .info-text {
+    top: 50%;
+    left: 20%;
+  }
+}
+
+.navigation-button {
+  text-align: center;
+  position: relative;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.conten {
+  overflow: hidden;
+  position: relative;
+>>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
   margin: 1.5rem 0;
 }
 @media (max-width: 820px) {
@@ -212,6 +309,7 @@ banner
   background-color: rgb(12, 184, 182) !important;
 }
 
+<<<<<<< HEAD
 #banner {
   background: url("../img/banner1.webp") no-repeat fixed;
   background-size: cover;
@@ -219,6 +317,8 @@ banner
   position: relative;
 }
 
+=======
+>>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
 .img-banner {
   width: 200px;
   height: auto;
@@ -357,8 +457,11 @@ about
   height: 40px;
   padding-top: 6px;
   background: rgb(6, 59, 149);
+<<<<<<< HEAD
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
+=======
+>>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
   border-radius: 50%;
   color: #fff;
   text-align: center;
@@ -436,9 +539,27 @@ cta -2
   margin-right: 7px;
 }
 
+<<<<<<< HEAD
 .contact {
   background-color: #d6d9dd;
   padding: 8rem 0;
+=======
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+  color: #f1f1f1;
+  width: 100%;
+  z-index: 19;
+  height: 100%;
+  transition: 0.5s ease;
+  opacity: 1;
+}
+
+.contact {
+  margin: 5rem 0;
+  background-color: #d6d9dd;
+>>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
 }
 
 .form-label {
@@ -509,6 +630,10 @@ cta -2
   position: absolute;
   top: 15%;
   left: 15%;
+<<<<<<< HEAD
+=======
+  z-index: 21;
+>>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
 }
 @media (max-width: 551px) {
   .auto-text {
@@ -670,6 +795,10 @@ footer
   position: relative;
   color: #fff;
   padding: 7rem 0;
+<<<<<<< HEAD
+=======
+  margin-top: 15rem;
+>>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
   background-color: #141d2a;
 }
 
@@ -728,8 +857,11 @@ footer
   position: absolute;
   top: 50%;
   left: 50%;
+<<<<<<< HEAD
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+=======
+>>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
   transform: translate(-50%, -50%);
 }
 
@@ -742,6 +874,10 @@ footer
 
 .footer-logo img {
   height: 100px;
+<<<<<<< HEAD
+=======
+  width: 100px;
+>>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
 }
 
 .footer-20192 .copyright {
@@ -782,7 +918,10 @@ footer
   vertical-align: middle;
   -webkit-user-select: none;
   -moz-user-select: none;
+<<<<<<< HEAD
   -ms-user-select: none;
+=======
+>>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
@@ -821,7 +960,10 @@ footer
 }
 
 .align-items-center {
+<<<<<<< HEAD
   -ms-flex-align: center !important;
+=======
+>>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
   align-items: center !important;
 }
 
@@ -843,7 +985,10 @@ footer
 
 @media (min-width: 768px) {
   .d-md-flex {
+<<<<<<< HEAD
     display: -ms-flexbox !important;
+=======
+>>>>>>> 69fbc5b0da63f784bee7840497219698d9da6aab
     display: flex !important;
   }
 }
