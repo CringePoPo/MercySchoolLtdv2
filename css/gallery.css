@@ -59,13 +59,12 @@
 #gallery img {
   width: 100% !important;
   height: auto !important;
-  filter: grayscale(100%);
-  transition: filter ease-in-out 0.5s;
   margin-bottom: 5px;
   /* to match column gap */
 }
 #gallery img:hover {
-  filter: none;
+  filter: grayscale(100%);
+  transition: filter ease-in-out 0.5s;
 }
 
 #darkbox {
