@@ -57,8 +57,12 @@ h6 {
 .pos {
   position: absolute;
   top: 50%;
+  width: 70%;
   transform: translateY(-50%);
-  width: 100%;
+}
+
+.c-info h3 {
+  margin: 10px 0 0 0;
 }
 
 a,
