@@ -27,25 +27,35 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand funsy" href="index.html">
-                      <img
+                  <a class="navbar-brand funsy" href="index.html"
+                    ><img
                       src="img/mercy.webp"
                       class="img-responsive"
                       style="margin-top: -16px"
                   /></a>
                 </div>
-                <div
-                  class="collapse navbar-collapse navbar-right"
-                  id="myNavbar"
-                >
-                  <ul class="nav navbar-nav">
+                <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                  <ul class="nav navbar-nav d-flex-1">
                     <li class="active"><a href="/">Home</a></li>
-                    <li class=""><a href="about.html">About</a></li>
-                    <!-- <li class=""><a href="curriculum.html">Alumni</a></li> -->
-                    <li class=""><a href="gallery.html">Gallery</a></li>
-                    <li class=""><a href="alumni.html">Curriculum</a></li>
-                    <li class=""><a href="schools.html">School</a></li>
-                    <li class=""><a href="contact.html">Contact</a></li>
+                    <li class="nav-item dropdown" style="display: flex; align-items: center; position: relative;">
+                      <a class="btn btn-secondary btn-sm" href="about.html">
+                        About Us
+                      </a>
+                      <button class=" dropdown-toggle" style="border: none; background-color: transparent;" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="fa fa-angle-down"></span>
+                      </button>
+                      <div class="dropdown-menu" style="position: absolute;">
+                        <a class="dropdown-item" href="bod.html">Board of Directors</a>
+                        <a class="dropdown-item" href="management.html">Management</a>
+                        <!-- Add more dropdown items if needed -->
+                      </div>
+                    </li>
+                <li><a href="alumni.html">Alumni</a></li>
+                    
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li ><a href="curriculum.html">Curriculum</a></li>
+                    <li  ><a href="schools.html">School</a></li>
+                    <li ><a href="contact.html">Contact</a></li>
                   </ul>
                 </div>
               </div>
@@ -68,9 +78,9 @@
                   </p> -->
                   <a href="contact.html" class="btn btn-dark">Get in touch</a>
                 </div>
-                <div class="overlay-detail text-center">
+                <!-- <div class="overlay-detail text-center">
                   <a href="#service"><i class="fa fa-angle-down"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -499,6 +509,8 @@
     <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="https://kit.fontawesome.com/f15be79476.js" crossorigin="anonymous"></script>
+
     <script src="js/script.js"></script>
   </body>
 </html>

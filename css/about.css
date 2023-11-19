@@ -191,9 +191,17 @@
   padding-bottom: 1.4rem;
   padding-top: 2.5rem;
 }
-.miss-vis .row .col-md-4 h2 {
-  margin-top: 1rem;
-  padding-top: 2.5rem;
+.miss-vis .row .col-md-4  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+@media (max-width:500px){
+  .miss-vis .row .col-md-4 {
+    margin: 15px;
+
+  }
 }
 
 .icon {

@@ -34,21 +34,33 @@
               /></a>
             </div>
             <div class="collapse navbar-collapse navbar-right" id="myNavbar">
-              <ul class="nav navbar-nav">
+              <ul class="nav navbar-nav d-flex-1">
                 <li class=""><a href="/">Home</a></li>
-                <li class=""><a href="about.html">About</a></li>
-                <!-- <li><a href="alumni.html">Alumni</a></li> -->
+                <li class="nav-item dropdown" style="display: flex; align-items: center; position: relative;">
+                  <a class="btn btn-secondary btn-sm" href="about.html">
+                    About Us
+                  </a>
+                  <button class=" dropdown-toggle" style="border: none; background-color: transparent;" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="fa fa-angle-down"></span>
+                  </button>
+                  <div class="dropdown-menu" style="position: absolute;">
+                    <a class="dropdown-item" href="bod.html">Board of Directors</a>
+                    <a class="dropdown-item" href="management.html">Management</a>
+                    <!-- Add more dropdown items if needed -->
+                  </div>
+                </li>
+                <li><a href="alumni.html">Alumni</a></li>
+                
                 <li><a href="gallery.html">Gallery</a></li>
                 <li class="active"><a href="curriculum.html">Curriculum</a></li>
-                <li class=""><a href="schools.html">School</a></li>
-                <li class=""><a href="contact.html">Contact</a></li>
+                <li  ><a href="schools.html">School</a></li>
+                <li ><a href="contact.html">Contact</a></li>
               </ul>
             </div>
           </div>
         </div>
       </nav>
     </header>
-
     <section
       class="hero-wrap hero-wrap-2 d-flex"
       style="
@@ -101,12 +113,13 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <div class="col-lg-3 col-md-4 mb-4 mb-lg-0">
             <div class="c-info">
 
               <div class="c-img">
 
-                <img
+                <img style="    height: 193.33px;
+                object-fit: cover;"
                   src="https://images.pexels.com/photos/5474296/pexels-photo-5474296.jpeg?auto=compress&cs=tinysrgb&w=1600"
                   class="w-100 shadow-1-strong rounded mb-4"
                   alt="Computing Image"
@@ -132,7 +145,7 @@
 
           </div>
 
-          <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="col-lg-3 col-md-4 mb-4 mb-lg-0">
             <div class="c-info">
 
               <div class="c-img">
@@ -164,7 +177,7 @@
 
           </div>
 
-          <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="col-lg-3 col-md-4 mb-4 mb-lg-0">
             <div class="c-info">
 
               <div class="c-img">
@@ -292,6 +305,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/f15be79476.js" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

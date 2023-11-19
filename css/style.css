@@ -73,6 +73,13 @@ a:active {
   color: white;
 }
 
+.bod {
+  margin-top: 50px;
+}
+.bod .section-title {
+  margin-bottom: 15px;
+}
+
 .conten {
   overflow: hidden;
   margin: 1.5rem 0;
@@ -85,6 +92,26 @@ a:active {
     height: 100%;
     text-align: justify;
   }
+}
+
+.dropdown {
+  position: relative;
+}
+.dropdown-menu {
+  flex-direction: column;
+  padding: 10px 5px;
+}
+@media (max-width: 450px) {
+  .dropdown-menu {
+    background-color: #fff !important;
+    left: 129px;
+    top: 51px;
+  }
+}
+.dropdown-menu .dropdown-item {
+  color: #000;
+  display: block;
+  padding: 10px;
 }
 
 .section-padding {
@@ -153,6 +180,11 @@ banner
   width: 80px;
 }
 
+.d-flex-1 {
+  display: flex;
+  gap: 10px;
+}
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -161,6 +193,15 @@ banner
 
 .img-resize {
   background-image: url("/img/banner4.webp");
+  background-position: center center;
+  background-size: cover;
+  width: 100vw;
+  height: 55vh;
+  padding: 5rem 0;
+}
+
+.img-resize2 {
+  background-image: url("/img/mohammed.jpeg");
   background-position: center center;
   background-size: cover;
   width: 100vw;
@@ -198,6 +239,12 @@ banner
     flex-direction: column;
   }
 }
+@media (max-width: 767px) {
+  .navbar-nav li {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
@@ -210,6 +257,10 @@ banner
   color: #000;
   font-size: 14px;
   font-weight: 300;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -270,6 +321,11 @@ banner
   padding-bottom: 15px;
 }
 
+@media (max-width: 1080px) {
+  .navbar-nav > li {
+    margin: 0 7px;
+  }
+}
 .overlay-detail a i {
   text-align: center;
   position: absolute;
@@ -679,6 +735,19 @@ cta -2
   }
 }
 
+.h-quote2 {
+  max-width: 20em;
+  margin: 0 auto;
+  transform: translate(10px, 20%);
+  font: 2.8rem/1.4 Georgia, serif;
+  quotes: "“" "”" "‘" "’";
+}
+@media (max-width: 551px) {
+  .h-quote2 {
+    font-size: 1.8rem;
+  }
+}
+
 .h-quote-p {
   margin-top: 5rem;
   text-align: center;
@@ -817,7 +886,6 @@ footer
 @media (max-width: 551px) {
   .btn {
     transform: translate(-1px, 10px);
-    margin: 0 auto;
     padding: 0.6rem 2rem;
   }
 }
