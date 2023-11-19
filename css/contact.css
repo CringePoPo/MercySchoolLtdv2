@@ -15,6 +15,7 @@
   background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/banner2.webp) no-repeat;
   background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/banner2.webp) no-repeat;
   background-size: cover;
+
 }
 
 .carousel .item.item3 {
@@ -128,10 +129,10 @@
 }
 
 .carousel .item.item16 {
-  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
-  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
-  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
-  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
+  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-3.JPG) no-repeat;
+  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-3.JPG) no-repeat;
+  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-3.JPG) no-repeat;
+  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-3.JPG) no-repeat;
   background-size: cover;
 }
 
@@ -142,6 +143,8 @@
   background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/pre-abossey.jpeg) no-repeat;
   background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/pre-abossey.jpeg) no-repeat;
   background-size: cover;
+  background-position: 30% 50%;
+
 
 }
 
@@ -162,10 +165,10 @@
 }
 
 .carousel .item.item23 {
-  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/abo) no-repeat;
-  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/abo) no-repeat;
-  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/abo) no-repeat;
-  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/abo) no-repeat;
+  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
+  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
+  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
+  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
   background-size: cover;
 }
 
@@ -194,10 +197,10 @@
 }
 
 .carousel .item.item26 {
-  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-1.JPG) no-repeat;
-  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-1.JPG) no-repeat;
-  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-1.JPG) no-repeat;
-  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-1.JPG) no-repeat;
+  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
+  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
+  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
+  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
   background-size: cover;
 }
 
@@ -239,6 +242,7 @@
   background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/gbawe-js.jpeg) no-repeat;
   background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/gbawe-js.jpeg) no-repeat;
   background-size: cover;
+  background-position: 35% 50%;
 }
 
 .carousel .item.item32 {
@@ -266,10 +270,10 @@
 }
 
 .carousel .item.item11 {
-  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
-  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
-  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
-  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
+  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-3.JPG) no-repeat;
+  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-3.JPG) no-repeat;
+  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-3.JPG) no-repeat;
+  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-3.JPG) no-repeat;
   background-size: cover;
 }
 
@@ -3906,10 +3910,10 @@ h4.modal-title {
 }
 
 .carousel .item.item16 {
-  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
-  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
-  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
-  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
+  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-3.JPG) no-repeat;
+  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-3.JPG) no-repeat;
+  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-3.JPG) no-repeat;
+  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-3.JPG) no-repeat;
   background-size: cover;
 }
 
@@ -3935,13 +3939,14 @@ h4.modal-title {
   background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/p-j-abossey.jpeg) no-repeat;
   background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/p-j-abossey.jpeg) no-repeat;
   background-size: cover;
+  background-position: 30% 50%;
 }
 
 .carousel .item.item23 {
-  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/abo) no-repeat;
-  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/abo) no-repeat;
-  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/abo) no-repeat;
-  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/abo) no-repeat;
+  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
+  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
+  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
+  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
   background-size: cover;
 }
 
@@ -3970,10 +3975,10 @@ h4.modal-title {
 }
 
 .carousel .item.item26 {
-  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-1.JPG) no-repeat;
-  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-1.JPG) no-repeat;
-  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-1.JPG) no-repeat;
-  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-1.JPG) no-repeat;
+  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
+  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
+  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
+  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
   background-size: cover;
 }
 
@@ -4001,21 +4006,7 @@ h4.modal-title {
   background-size: cover;
 }
 
-.carousel .item.item30 {
-  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/banner2.webp) no-repeat;
-  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/banner2.webp) no-repeat;
-  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/banner2.webp) no-repeat;
-  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/banner2.webp) no-repeat;
-  background-size: cover;
-}
 
-.carousel .item.item31 {
-  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/gbawe-js.jpeg) no-repeat;
-  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/gbawe-js.jpeg) no-repeat;
-  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/gbawe-js.jpeg) no-repeat;
-  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/gbawe-js.jpeg) no-repeat;
-  background-size: cover;
-}
 
 .carousel .item.item32 {
   background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/18-event.jpg) no-repeat;
@@ -4034,18 +4025,18 @@ h4.modal-title {
 }
 
 .carousel .item.item10 {
-  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-2.JPG) no-repeat;
-  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-2.JPG) no-repeat;
-  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-2.JPG) no-repeat;
-  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-2.JPG) no-repeat;
+  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPGss-2.JPG) no-repeat;
+  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPGss-2.JPG) no-repeat;
+  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPGss-2.JPG) no-repeat;
+  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPGss-2.JPG) no-repeat;
   background-size: cover;
 }
 
 .carousel .item.item11 {
-  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
-  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
-  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
-  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-4.JPG) no-repeat;
+  background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-3.JPG) no-repeat;
+  background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-3.JPG) no-repeat;
+  background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-3.JPG) no-repeat;
+  background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/img/aboss-3.JPG) no-repeat;
   background-size: cover;
 }
 
